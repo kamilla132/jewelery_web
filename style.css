@@ -199,7 +199,7 @@
 /*-----------GET STARTED------------*/
 
 .main {
-    
+    border-bottom: 1px solid #ddd;
     flex: 1 1 auto;
 }
 .get-started__container {
@@ -744,7 +744,6 @@
     background: #ffffff;
     padding: 40px;
     border-radius: 5px;
-    box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
 }
 
 .left-side {
@@ -1139,7 +1138,9 @@ aside > p {
 
 /*-----------3nd PAGE------------*/
 /*-----------CART------------*/
-
+.main-basket {
+    border-bottom: 1px solid #ddd;
+}
 .cart__item {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
