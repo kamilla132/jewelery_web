@@ -669,7 +669,6 @@
 
 .banner__item-testimonials {
     max-width: 816px;
-    height: 33rem;
     margin: 0 auto;
     padding: 3rem;
     background: #f8fafb;
@@ -766,11 +765,6 @@
     right: -15px;
     top: 50%;
     transform: translateY(-50%);
-}
-
-.right-side {
-    width: 75%;
-    margin-left: 75px;
 }
 
 .details {
@@ -874,10 +868,6 @@
     }
     .left-side::before {
         display: none;
-    }
-    .right-side {
-        width: 100%;
-        margin-left: 0;
     }
 }
 
