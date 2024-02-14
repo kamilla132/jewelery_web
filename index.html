@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Diamond Shop</title>
+</head>
+<body>
+    <header class="header">
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+            <ul class="menu__box">
+                <li><a class="menu__item" href="./index.html">Home</a></li>
+                <li><a class="menu__item" href="#shop">Necklace</a></li>
+                <li><a class="menu__item" href="#shop">Rings</a></li>
+                <li><a class="menu__item" href="#shop">Bracelete</a></li>
+                <li><a class="menu__item" href="#shop">Earrings</a></li>
+                <li><a class="menu__item" href="#about">About</a></li>
+                <li><a class="menu__item" href="#contact-us">Contacts</a></li>
+            </ul>
+        </div>
+        <div class="logo">
+            <article class="logo__back">
+                <a href="./index.html">DIAMOND</a>
+            </article>
+        </div>
+        <div class="container">
+            <div class="box">
+                <form name="search">
+                    <input type="text" name="search" placeholder="Search..">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="basket">
+            <a class="basket__link" href="./basket.html" data-count="5">
+                <img class="basket__img" src="./assets/icons/header-case.svg"
+            alt=""/></a>
+        </div>
+    </header>
+    <main class="main">
+        <section class="get-started">
+            <div class="get-started__container">
+                <div class="get-started__content">
+                    <div class="get-started__block-text block-text">
+                        <h1 class="block-text__title">
+                            The perfect jewelery <br> for your
+                            <span>LOVED</span>
+                        </h1>
+                        <div class="block-text__text">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam ornare wisi eu metus.
+                        </div>
+                        <div class="block-text__btn">
+                            <button>
+                                <strong><a href="./product.html" class="block-text__button button">Explore now</a></strong>
+                            </button>
+                        </div> 
+                    </div>
+                </div>
+                <div class="get-started__image">
+                    <img src="./assets/icons/main_pic.jpg"
+                        alt="Girl with jewels"/>
+                </div>
+            </div>
+        </section>
+        <section class="feature">
+            <div class="container-feat">
+                <div class="feature__iner">
+                    <div class="feature__item">
+                        <img class="feature-img"
+                            src="./assets/icons/delivery-1.svg"
+                            alt="" />
+                        <article class="feature__title-box">
+                            <p class="feature__title">Free Delivery</p>
+                            <p class="feature__text">Orders over $100</p>
+                        </article>
+                    </div>
+                    <div class="feature__item">
+                        <img class="feature-img"
+                            src="./assets/icons//delivery-2.svg"
+                            alt="" />
+                        <article class="feature__title-box">
+                            <p class="feature__title">Smart Gift Card</p>
+                            <p class="feature__text">
+                                Buy $500 to get card
+                            </p>
+                        </article>
+                    </div>
+                    <div class="feature__item">
+                        <img
+                            class="feature-img"
+                            src="./assets/icons//delivery-3.svg"
+                            alt="" />
+                        <article class="feature__title-box">
+                            <p class="feature__title">Quick Payment</p>
+                            <p class="feature__text">100% secure payment</p>
+                        </article>
+                    </div>
+                    <div class="feature__item">
+                        <img class="feature-img"
+                            src="./assets/icons/delivery-4.svg"
+                            alt="" />
+                        <article class="feature__title-box">
+                            <p class="feature__title">24/7 Support</p>
+                            <p class="feature__text">Quick support</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="offer">
+            <div class="container">
+                <div class="offer__iner">
+                    <div class="offer__iner-left">
+                        <article class="offer__item">
+                            <div class="transbox">
+                                <h3 class="offer__title">
+                                    Most Popular Products
+                                </h3>
+                                <span class="subtitle">Lorem ipsum dolor sit.</span>
+                                <a class="offer__text" href="https://www.klenota.cz/Naramky/" target="_blank">
+                                Read more...</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="offer__iner-right">
+                        <article class="offer__item offer__item-2">
+                            <div class="transbox">
+                                <h3 class="offer__title">
+                                    New arrival
+                                </h3>
+                                <span class="subtitle"
+                                    >Lorem ipsum dolor sit.</span
+                                ><a class="offer__text" href="https://www.tiffany.com/jewelry/shop/necklaces-pendants/" target="_blank">
+                                    Read more...</a>
+                            </div>
+                        </article>
+                        <article class="offer__item offer__item-3">
+                            <div class="transbox">
+                                <h3 class="offer__title">
+                                    Wedding rings
+                                </h3>
+                                <span class="subtitle">Lorem ipsum dolor sit.</span><a class="offer__text" href="https://www.brilliantearth.com/wedding-rings/" target="_blank">
+                                    Read more...</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="trendings" id="shop">
+            <div class="container-trend">
+                <article class="container-trend__title">
+                    <header class="title__for-trend">
+                        <h2 class="title__trend">
+                            Trending designs
+                        </h2>
+                    </header>
+                </article>
+                <div class="trending__wrapper">
+                    <div class="trending__column">
+                        <div class="trending__item">
+                            <a href="./product.html">
+                            <div class="trending__img-box">
+                                <img src="./assets/icons/trend1.avif" alt="" /><span class="status-span">new</span>
+                            </div>
+                            <div class="trending__title-box">
+                                <span class="trending-span">Lorum</span>
+                                <h4 class="trending-title">
+                                    Lorem ipsum dolor
+                                </h4>
+                            </div></a>
+                            <div class="rating__box">
+                                <div class="reting__box-price">
+                                    <div class="price-new">
+                                        <p>$450</p>
+                                    </div>
+                                    <div class="price-old">
+                                        <p>$580</p>
+                                    </div>
+                                </div>
+                                <div class="reting__box-stars">
+                                    <div class="rating" data-rating="5">
+                                        <div class="rating__star"></div>
+                                        <div class="rating__star"></div>
+                                        <div class="rating__star"></div>
+                                        <div class="rating__star"></div>
+                                        <div class="rating__star"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trending__column">
+                        <div class="trending__item">
+                            <a href="./product.html">
+                            <div class="trending__img-box">
+                                <img src="./assets/icons/trend2.webp"
+                                    alt="" /><span class="status-span">new</span>
+                            </div>
+                            <div class="trending__title-box">
+                                <span class="trending-span">Lorum</span>
+                                <h4 class="trending-title">
+                                    Lorem ipsum dolor
+                                </h4>
+                            </div>
+                            </a>
+                            <div class="rating__box">
+                                <div class="reting__box-price">
+                                    <div class="price-new">
+                                        <p>$160</p>
+                                    </div>
+                                    <div class="price-old">
+                                        <p>$200</p>
+                                    </div>
+                                </div>
+                                <div class="reting__box-stars">
+                                    <div class="rating" data-rating="4">
+                                        <div class="rating__star"></div>
+                                        <div class="rating__star"></div>
+                                        <div class="rating__star"></div>
+                                        <div class="rating__star"></div>
+                                        <div class="rating__star"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trending__column">
+                        <div class="trending__item">
+                            <a href="./product.html">
+                            <div class="trending__img-box">
+                                <img src="./assets/icons/trend3.webp"
+                                    alt="" /><span class="status-span span-green">sale</span>
+                            </div>
+                            <div class="trending__title-box">
+                                <span class="trending-span">Lorum</span>
+                                <h4 class="trending-title">
+                                    Lorem ipsum dolor
+                                </h4>
+                            </div>
+                            </a>
+                            <div class="rating__box">
+                                <div class="reting__box-price">
+                                    <div class="price-new">
+                                        <p>$100</p>
+                                    </div>
+                                    <div class="price-old">
+                                        <p>$180</p>
+                                    </div>
+                                </div>
+                                <div class="reting__box-stars">
+                                    <div class="rating" data-rating="5">
+                                        <div class="rating__star"></div>
+                                        <div class="rating__star"></div>
+                                        <div class="rating__star"></div>
+                                        <div class="rating__star"></div>
+                                        <div class="rating__star"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trending__column">
+                        <div class="trending__item">
+                            <a href="./product.html">
+                            <div class="trending__img-box">
+                                <img src="./assets/icons/trend4.jpeg"
+                                    alt="" /><span class="status-span span-green">sale</span>
+                            </div>
+                            <div class="trending__title-box">
+                                <span class="trending-span">Lorum</span>
+                                <h4 class="trending-title">
+                                    Lorem ipsum dolor
+                                </h4>
+                            </div>
+                            </a>
+                            <div class="rating__box">
+                                <div class="reting__box-price">
+                                    <div class="price-new">
+                                        <p>$150</p>
+                                    </div>
+                                    <div class="price-old">
+                                        <p>$190</p>
+                                    </div>
+                                </div>
+                                <div class="reting__box-stars">
+                                    <div class="rating" data-rating="4">
+                                        <div class="rating__star"></div>
+                                        <div class="rating__star"></div>
+                                        <div class="rating__star"></div>
+                                        <div class="rating__star"></div>
+                                        <div class="rating__star"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials" id="about">
+            <div class="container-testi">
+                <article class="container-testi__title">
+                    <h2 class="title__about">
+                        A little about our founders
+                    </h2>
+                </article>
+                <div class="testimonials__wrapper">
+                    <div class="banner">
+                        <footer class="banner__item-testimonials">
+                            <img
+                                class="testimonials-img"
+                                src="./assets/img/kamila.jpg"
+                                alt="" />
+                            <p class="testimonials-text">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Repudiandae expedita
+                                consequatur ea, vel perspiciatis ipsum nihil
+                                aut facere nam ratione. Laudantium
+                                consequatur suscipit temporibus sed odio
+                                neque facilis!
+                            </p>
+                            <div class="testimonials__name-box">
+                                <p class="testimonials-name">
+                                    Kamilla Alimagambetova
+                                </p>
+                                <p class="testimonials-position">
+                                    Founder
+                                </p>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact-us">
+            <div class="container-contacts">
+                <div class="content">
+                    <div class="left-side">
+                        <div class="address details">
+                            <i class="fa fa-map-marker"></i>
+                            <div class="topic">Address</div>
+                            <div class="text-one">Prague</div>
+                            <div class="text-two">Petynka 885/52</div>
+                        </div>
+                        <div class="phone details">
+                            <i class="fa fa-mobile"></i>
+                            <div class="topic">Telephone</div>
+                            <div class="text-one">+420-999-999-999</div>
+                            <div class="text-two">+420-999-999-999</div>
+                        </div>
+                        <div class="email details">
+                            <i class="fa fa-envelope"></i>
+                            <div class="topic">Email</div>
+                            <div class="text-one">support@diamond.com</div>
+                            <div class="text-two">admin@diamond.com</div>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <article class="topic-text">
+                            <h2>Send us a message</h2>
+                            <p>
+                                If you have any questions or suggestions
+                                about cooperation - fill in the form below
+                            </p>
+                        </article>
+                        <form action="#">
+                            <div class="input-box">
+                                <input
+                                    type="text"
+                                    placeholder="Your name" />
+                            </div>
+                            <div class="input-box">
+                                <input
+                                    type="text"
+                                    placeholder="Write your email" />
+                            </div>
+                            <div class="input-box">
+                                <input
+                                    type="text"
+                                    placeholder="Enter your phone number" />
+                            </div>
+                            <div class="input-box message-box">
+                                <textarea placeholder="Message"></textarea>
+                            </div>
+                            <div class="button">
+                                <input type="button" value="Send" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container-foot">
+            <div class="footer__top">
+                <div class="footer__contacts">
+                    <div class="footer__contacts-logo logo">
+                        <a class="logo-link" href="./index.html">DIAMOND</a>
+                    </div>
+                    <p class="footer__contacts-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Iusto et voluptatum porro?
+                    </p>
+                    <div class="footer__social">
+                        <div class="footer__social-item">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </div>
+                        <div class="footer__social-item">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </div>
+                        <div class="footer__social-item">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </div>
+                        <div class="footer__social-item">
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-menu__item">
+                    <h4 class="footer-menu__title">More</h4>
+                    <ul class="footer-menu__list">
+                        <li class="footer-menu__list-item">
+                            <a class="footer-menu__list-link menu-link"
+                                href="#">Privacy Policy</a>
+                        </li>
+                        <li class="footer-menu__list-item">
+                            <a class="footer-menu__list-link menu-link"
+                                href="#">Shipping &amp; Delivery</a>
+                        </li>
+                        <li class="footer-menu__list-item">
+                            <a class="footer-menu__list-link menu-link"
+                                href="#">Refund Policy</a>
+                        </li>
+                        <li class="footer-menu__list-item">
+                            <a class="footer-menu__list-link menu-link"
+                                href="#">Track Your Order</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-menu__item">
+                    <h4 class="footer-menu__title">Store</h4>
+                    <ul class="footer-menu__list">
+                        <li class="footer-menu__list-item">
+                            <a class="footer-menu__list-link menu-link"
+                                href="#">Rings</a>
+                        </li>
+                        <li class="footer-menu__list-item">
+                            <a class="footer-menu__list-link menu-link"
+                                href="#">Bracelete</a>
+                        </li>
+                        <li class="footer-menu__list-item">
+                            <a class="footer-menu__list-link menu-link"
+                                href="#">All</a>
+                        </li>
+                        <li class="footer-menu__list-item">
+                            <a class="footer-menu__list-link menu-link"
+                                href="#">Other</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-menu__item">
+                    <h4 class="footer-menu__title">Supports</h4>
+                    <ul class="footer-menu__list">
+                        <li class="footer-menu__list-item">
+                            <a class="footer-menu__list-link menu-link"
+                                href="#">Feedbcak</a>
+                        </li>
+                        <li class="footer-menu__list-item">
+                            <a class="footer-menu__list-link menu-link"
+                                href="#">Contact us</a>
+                        </li>
+                        <li class="footer-menu__list-item">
+                            <a class="footer-menu__list-link menu-link"
+                                href="#">Download app</a>
+                        </li>
+                        <li class="footer-menu__list-item">
+                            <a class="footer-menu__list-link menu-link"
+                                href="#">Terms conditins</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container-foot-bot">
+                <div class="footer__bootom-iner">
+                    <p class="footer__bottom-copirate">
+                        © 2023 DIAMOND - All rights reserved. It's students
+                        project from web-design
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

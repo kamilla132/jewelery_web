@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Payment</title>
+</head>
+<body>
+    <header class="header">
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+            <ul class="menu__box">
+                <li><a class="menu__item" href="./index.html">Home</a></li>
+                <li><a class="menu__item" href="./index.html">Necklace</a></li>
+                <li><a class="menu__item" href="./index.html">Rings</a></li>
+                <li><a class="menu__item" href="./index.html">Bracelete</a></li>
+                <li><a class="menu__item" href="./index.html">Earrings</a></li>
+                <li><a class="menu__item" href="./index.html">About</a></li>
+                <li><a class="menu__item" href="./index.html">Contacts</a></li>
+            </ul>
+        </div>
+        <div class="logo">
+            <article class="logo__back">
+                <a href="./index.html">DIAMOND</a>
+            </article>
+        </div>
+        <div class="container">
+            <div class="box">
+                <form name="search">
+                    <input type="text" name="search" placeholder="Search..">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="basket">
+            <a class="basket__link" href="./basket.html" data-count="5"
+            ><img class="basket__img"
+            src="./assets/icons/header-case.svg"
+            alt=""/></a>
+        </div>
+    </header>
+    <main class="main-payment">
+        <section class="payment-section">
+            <div class="payment-first">
+                <h2>Payment Options</h2>
+                    <form action="./index.html">
+                        <div class="payment-methods">
+                            <label class="payment-option">
+                            <input type="radio" name="payment-method" value="card" checked>
+                            <i class="fa fa-credit-card-alt" aria-hidden="true"></i> 
+                            Pay by Card
+                            </label>
+                            <label class="payment-option">
+                            <input type="radio" name="payment-method" value="card" checked>
+                            <i class="fa fa-paypal" aria-hidden="true"></i>
+                            PayPal
+                            </label>
+                            <label class="payment-option">
+                            <input type="radio" name="payment-method" value="card" checked>
+                            <i class="fa fa-apple" aria-hidden="true"></i>
+                            ApplePay
+                            </label>
+                            <label class="payment-option">
+                            <input type="radio" name="payment-method" value="card" checked>
+                            <i class="fa fa-google" aria-hidden="true"></i>
+                            GooglePay
+                            </label>
+                        </div>
+                        <div class="delivery-options">
+                            <label>* Select the method of receipt:</label>
+                            <label>
+                            <input type="radio" name="delivery" value="delivery" required />
+                            Delivery
+                            </label>
+                            <label>
+                            <input type="radio" name="delivery" value="pickup" />
+                            Pickup
+                            </label>
+                        </div>
+                        <div class="payment-second">
+                        <div class="customer-info">
+                            <h3>Customer Information</h3>
+                            <input type="text" name="name" placeholder="Full Name" required>
+                            <input type="email" name="email" placeholder="Email" required>
+                            <input name="address" placeholder="Address" required>
+                            <input type="text" name="phone" placeholder="Phone Number" required>
+                        </div>
+                        </div>
+                        <button type="submit" class="submit-button">Proceed to Payment</button>
+                    </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container-foot">
+            <div class="footer__top">
+                <div class="footer__contacts">
+                    <div class="footer__contacts-logo logo">
+                        <a class="logo-link" href="./index.html">DIAMOND</a>
+                    </div>
+                    <p class="footer__contacts-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Iusto et voluptatum porro?
+                    </p>
+                    <div class="footer__social">
+                        <div class="footer__social-item">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </div>
+                        <div class="footer__social-item">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </div>
+                        <div class="footer__social-item">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </div>
+                        <div class="footer__social-item">
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-menu__item">
+                    <h4 class="footer-menu__title">More</h4>
+                    <ul class="footer-menu__list">
+                        <li class="footer-menu__list-item">
+                            <a
+                                class="footer-menu__list-link menu-link"
+                                href="#"
+                                >Privacy Policy</a
+                            >
+                        </li>
+                        <li class="footer-menu__list-item">
+                            <a
+                                class="footer-menu__list-link menu-link"
+                                href="#"
+                                >Shipping &amp; Delivery</a
+                            >
+                        </li>
+                        <li class="footer-menu__list-item">
+                            <a
+                                class="footer-menu__list-link menu-link"
+                                href="#"
+                                >Refund Policy</a
+                            >
+                        </li>
+                        <li class="footer-menu__list-item">
+                            <a
+                                class="footer-menu__list-link menu-link"
+                                href="#"
+                                >Track Your Order</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-menu__item">
+                    <h4 class="footer-menu__title">Store</h4>
+                    <ul class="footer-menu__list">
+                        <li class="footer-menu__list-item">
+                            <a
+                                class="footer-menu__list-link menu-link"
+                                href="#"
+                                >Rings</a
+                            >
+                        </li>
+                        <li class="footer-menu__list-item">
+                            <a
+                                class="footer-menu__list-link menu-link"
+                                href="#"
+                                >Bracelete</a
+                            >
+                        </li>
+                        <li class="footer-menu__list-item">
+                            <a
+                                class="footer-menu__list-link menu-link"
+                                href="#"
+                                >All</a
+                            >
+                        </li>
+                        <li class="footer-menu__list-item">
+                            <a
+                                class="footer-menu__list-link menu-link"
+                                href="#"
+                                >Other</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-menu__item">
+                    <h4 class="footer-menu__title">Supports</h4>
+                    <ul class="footer-menu__list">
+                        <li class="footer-menu__list-item">
+                            <a
+                                class="footer-menu__list-link menu-link"
+                                href="#"
+                                >Feedbcak</a
+                            >
+                        </li>
+                        <li class="footer-menu__list-item">
+                            <a
+                                class="footer-menu__list-link menu-link"
+                                href="#"
+                                >Contact us</a
+                            >
+                        </li>
+                        <li class="footer-menu__list-item">
+                            <a
+                                class="footer-menu__list-link menu-link"
+                                href="#"
+                                >Download app</a
+                            >
+                        </li>
+                        <li class="footer-menu__list-item">
+                            <a
+                                class="footer-menu__list-link menu-link"
+                                href="#"
+                                >Terms conditins</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container-foot-bot">
+                <div class="footer__bootom-iner">
+                    <p class="footer__bottom-copirate">
+                        © 2023 DIAMOND - All rights reserved. It's students
+                        project from web-design
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

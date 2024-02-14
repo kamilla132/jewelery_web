@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Basket</title>
+</head>
+<body>
+    <header class="header">
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+            <ul class="menu__box">
+                <li><a class="menu__item" href="./index.html">Home</a></li>
+                <li><a class="menu__item" href="./index.html">Necklace</a></li>
+                <li><a class="menu__item" href="./index.html">Rings</a></li>
+                <li><a class="menu__item" href="./index.html">Bracelete</a></li>
+                <li><a class="menu__item" href="./index.html">Earrings</a></li>
+                <li><a class="menu__item" href="./index.html">About</a></li>
+                <li><a class="menu__item" href="./index.html">Contacts</a></li>
+            </ul>
+        </div>
+        <div class="logo">
+            <article class="logo__back">
+                <a href="./index.html">DIAMOND</a>
+            </article>
+        </div>
+        <div class="container">
+            <div class="box">
+                <form name="search">
+                    <input type="text" name="search" placeholder="Search..">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="basket">
+            <a class="basket__link" href="./basket.html" data-count="5">
+            <img class="basket__img" src="./assets/icons/header-case.svg" alt=""/></a>
+        </div>
+    </header>
+    <main class="main-basket">
+        <section class="cart">
+            <div class="cart__item">
+                <div class="item large">
+                    <div class="item__img">
+                        <img src="./assets/icons/van4.jpg" alt="" />
+                        <article>
+                            <p>Product 1</p>
+                            <span>$500</span>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+                            Nulla accumsan, elit sit amet varius semper, <br> mauris mollis quam, <br>
+                            tempor suscipit diam nulla vel leo. Integer vulputate sem a nibh rutrum consequat.Nulla accumsan, elit sit amet varius semper, <br> mauris mollis quam, <br>
+                            tempor suscipit diam nulla vel leo. Integer vulputate sem a nibh rutrum consequat.</p>
+                        </article>
+                    </div>
+                    <button class="remove-btn">Remove</button>
+                </div>
+                <div class="item">
+                    <div class="item__img">
+                        <img src="./assets/icons/basket1.avif" alt="" />
+                        <p>Product 2</p>
+                        <span>$800</span>
+                    </div>
+                    <button class="remove-btn">Remove</button>
+                </div>
+                <div class="item">
+                    <div class="item__img">
+                        <img src="./assets/icons/basket2.jpeg" alt="" />
+                        <p>Product 3</p>
+                        <span>$900</span>
+                    </div>
+                    <button class="remove-btn">Remove</button>
+                </div>
+                <div class="item">
+                    <div class="item__img">
+                        <img src="./assets/icons/basket2.jpeg" alt="" />
+                        <p>Product 4</p>
+                        <span>$200</span>
+                    </div>
+                    <button class="remove-btn">Remove</button>
+                </div>
+                <div class="item">
+                    <div class="item__img">
+                        <img src="./assets/icons/van4.jpg" alt="" />
+                        <p>Product 5</p>
+                        <span>$150</span>
+                    </div>
+                    <button class="remove-btn">Remove</button>
+                </div>
+                <div class="item large">
+                    <div class="item__img">
+                        <img src="./assets/icons/basket2.jpeg" alt="" />
+                        <article>
+                            <p>Product 6</p>
+                            <span>$750</span>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+                            Nulla accumsan, elit sit amet varius semper, <br> mauris mollis quam, <br>
+                            tempor suscipit diam nulla vel leo. Integer vulputate sem a nibh rutrum consequat.Nulla accumsan, elit sit amet varius semper, <br> mauris mollis quam, <br>
+                            tempor suscipit diam nulla vel leo. Integer vulputate sem a nibh rutrum consequat.</p>
+                        </article>
+                    </div>
+                    <button class="remove-btn">Remove</button>
+                </div>
+                <div class="item">
+                    <div class="item__img">
+                        <img src="./assets/icons/basket1.avif" alt="" />
+                        <p>Product 7</p>
+                        <span>$200</span>
+                    </div>
+                    <button class="remove-btn">Remove</button>
+                </div>
+                <div class="item">
+                    <div class="item__img">
+                        <img src="./assets/icons/van2.webp" alt="" />
+                        <p>Product 8</p>
+                        <span>$255</span>
+                    </div>
+                    <button class="remove-btn">Remove</button>
+                </div>
+                <div class="item">
+                    <div class="item__img">
+                        <img src="./assets/icons/van3.avif" alt="" />
+                        <p>Product 9</p>
+                        <span>$915</span>
+                    </div>
+                    <button class="remove-btn">Remove</button>
+                </div>
+                <div class="item">
+                    <div class="item__img">
+                        <img src="./assets/icons/van5.webp" alt="" />
+                        <p>Product 10</p>
+                        <span>$720</span>
+                    </div>
+                    <button class="remove-btn">Remove</button>
+                </div>
+            </div>
+            <div class="total">
+                <h3>Total: $5390.00</h3>
+                <form action="./payment.html" target="_blank">
+                    <button class="continue-payment">Continue to Payment</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container-foot">
+            <div class="footer__top">
+                <div class="footer__contacts">
+                    <div class="footer__contacts-logo logo">
+                        <a class="logo-link" href="./index.html">DIAMOND</a>
+                    </div>
+                    <p class="footer__contacts-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Iusto et voluptatum porro?
+                    </p>
+                    <div class="footer__social">
+                        <div class="footer__social-item">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </div>
+                        <div class="footer__social-item">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </div>
+                        <div class="footer__social-item">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </div>
+                        <div class="footer__social-item">
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-menu__item">
+                    <h4 class="footer-menu__title">More</h4>
+                    <ul class="footer-menu__list">
+                        <li class="footer-menu__list-item">
+                            <a
+                                class="footer-menu__list-link menu-link"
+                                href="#"
+                                >Privacy Policy</a
+                            >
+                        </li>
+                        <li class="footer-menu__list-item">
+                            <a
+                                class="footer-menu__list-link menu-link"
+                                href="#"
+                                >Shipping &amp; Delivery</a
+                            >
+                        </li>
+                        <li class="footer-menu__list-item">
+                            <a
+                                class="footer-menu__list-link menu-link"
+                                href="#"
+                                >Refund Policy</a
+                            >
+                        </li>
+                        <li class="footer-menu__list-item">
+                            <a
+                                class="footer-menu__list-link menu-link"
+                                href="#"
+                                >Track Your Order</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-menu__item">
+                    <h4 class="footer-menu__title">Store</h4>
+                    <ul class="footer-menu__list">
+                        <li class="footer-menu__list-item">
+                            <a
+                                class="footer-menu__list-link menu-link"
+                                href="#"
+                                >Rings</a
+                            >
+                        </li>
+                        <li class="footer-menu__list-item">
+                            <a
+                                class="footer-menu__list-link menu-link"
+                                href="#"
+                                >Bracelete</a
+                            >
+                        </li>
+                        <li class="footer-menu__list-item">
+                            <a
+                                class="footer-menu__list-link menu-link"
+                                href="#"
+                                >All</a
+                            >
+                        </li>
+                        <li class="footer-menu__list-item">
+                            <a
+                                class="footer-menu__list-link menu-link"
+                                href="#"
+                                >Other</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-menu__item">
+                    <h4 class="footer-menu__title">Supports</h4>
+                    <ul class="footer-menu__list">
+                        <li class="footer-menu__list-item">
+                            <a
+                                class="footer-menu__list-link menu-link"
+                                href="#"
+                                >Feedbcak</a
+                            >
+                        </li>
+                        <li class="footer-menu__list-item">
+                            <a
+                                class="footer-menu__list-link menu-link"
+                                href="#"
+                                >Contact us</a
+                            >
+                        </li>
+                        <li class="footer-menu__list-item">
+                            <a
+                                class="footer-menu__list-link menu-link"
+                                href="#"
+                                >Download app</a
+                            >
+                        </li>
+                        <li class="footer-menu__list-item">
+                            <a
+                                class="footer-menu__list-link menu-link"
+                                href="#"
+                                >Terms conditins</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container-foot-bot">
+                <div class="footer__bootom-iner">
+                    <p class="footer__bottom-copirate">
+                        © 2023 DIAMOND - All rights reserved. It's students
+                        project from web-design
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
