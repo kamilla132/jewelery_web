@@ -1,6 +1,6 @@
 # jewelery_web
 This repository showcases my semestral project—a captivating e-commerce platform tailored for a prestigious jewelry brand. Leveraging HTML, CSS I've meticulously crafted the frontend interface, ensuring a seamless and visually stunning user experience.
-# Key_Features:
+Key Features:
 
 Responsive Design: Implemented using CSS media queries, ensuring optimal viewing experience across a wide range of devices—from desktops to mobile phones.
 Product Showcase: Dynamically displays the exquisite jewelry collection with stunning visuals and detailed descriptions, enticing users to explore further.
